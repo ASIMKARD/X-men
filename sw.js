@@ -1,6 +1,6 @@
 // The Pull List — offline service worker (standalone build)
 // Caches the app shell so it loads with zero network after the first visit.
-const CACHE = 'pull-list-v1';
+const CACHE = 'pull-list-v2';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
